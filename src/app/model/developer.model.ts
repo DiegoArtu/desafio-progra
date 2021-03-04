@@ -7,7 +7,7 @@ export class DeveloperModel {
     password: string;
 
     constructor(){
-        this.mail = 'testdeveloper@barracks.gg';
-        this.password = 'testdeveloper'
+        this.mail = '';
+        this.password = ''
     }
 }

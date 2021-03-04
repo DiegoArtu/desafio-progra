@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from "@angular/common/http";
 import { FormsModule } from "@angular/forms";
+import { TruncatePipe } from "./pipe/string.pipe";
 
 import { APP_ROUTING } from "./app.routes";
 
@@ -13,7 +14,8 @@ import { DataComponent } from './data/data.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    DataComponent
+    DataComponent,
+    TruncatePipe
   ],
   imports: [
     BrowserModule,
