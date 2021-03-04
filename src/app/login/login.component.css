@@ -1,0 +1,81 @@
+.main {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(62, 62, 62, 0.7);
+    mix-blend-mode: multiply
+}
+
+
+.form-container{
+   
+    width: 326px;
+    height: 358px;
+    border: 1px solid black;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+.form-container form h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #F2F2F2;
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 266px;
+    height: 60px;
+}
+
+.form-container form  .uno{
+    background: rgba(70, 69, 69, 0.9);
+    border: none;
+    color:#F2F2F2;
+    margin: auto;
+    margin-top: 30px;
+    width: 266px;
+    height: 40px;
+}
+
+.form-container form  .dos{
+    border: none;
+    background: rgba(70, 69, 69, 0.9);
+    color:#ffffff;
+    margin: auto;
+    margin-top: 15px;
+    width: 266px;
+    height: 40px;
+    
+}
+
+.form-container form button{
+    color: #f2f2f2d7;
+    border-radius: 6px;
+    border: 1px solid #f2f2f2d7;
+    background: rgba(0, 0, 0, 0.7);
+    margin-left: 28px;
+    margin-top: 70px;
+    width: 266px;
+    height: 40px;
+      
+}
